@@ -11,7 +11,7 @@ const NewsDetails = () => {
         {/* <div className="card-header flex items-center px-5 py-4 bg-[#F3F3F3] gap-2">
           
         </div> */}
-        <figure className="px-6 pt-10">
+        <figure className="px-6 pt-6">
           <img
             src={thumbnail_url}
             alt="Shoes"

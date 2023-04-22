@@ -31,7 +31,7 @@ const NewsCard = ({ categoryNews }) => {
           </div>
         </div>
         <h1 className="font-bold text-3xl px-6 mt-4 mb-5">{title}</h1>
-        <figure className="px-6 pt-10">
+        <figure className="px-6">
           <img
             src={thumbnail_url}
             alt="Shoes"
@@ -45,7 +45,7 @@ const NewsCard = ({ categoryNews }) => {
                 {details.slice(0, 250)}...
                 <Link
                   to={`/news/${_id}`}
-                  className="text-orange-500 text-base font-semibold"
+                  className="text-orange-500 text-base font-semibold hover:underline transition-all"
                 >
                   Read More
                 </Link>
